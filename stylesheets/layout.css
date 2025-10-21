@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Geometria';
+    font-weight: 500;
+    position: relative;
+}
+body {
+    font-family: 'HKGrotesk', sans-serif;
+    font-weight: 400;
+    /* Regular */
+}
+h1 {
+    font-family: 'HKGrotesk', sans-serif;
+font-weight: 500;
+    font-size: 400px;
+    color: #252525;
+    margin: 0px 0px 0px 0px;
+}
+.header1,
+.header2 {
+    font-family: 'HKGrotesk', sans-serif;
+    font-weight: 500;
+    font-size: 370px;
+    color: #252525;
+}
+.section-1 {
+    font-family: 'HKGrotesk', sans-serif;
+}
+.section-1 img {
+    width: width="290" height="290";
+    color: #fbc95c;
+    display: flex;
+    padding: 0px 62px 0px 542px;
+    gap: 8px;
+}

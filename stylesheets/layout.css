@@ -17,6 +17,7 @@ font-family: 'HKGrotesk', sans-serif;
 
 .section-1 {
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     background-color: #E273B6;
@@ -43,23 +44,34 @@ font-family: 'HKGrotesk', sans-serif;
     color: #252525;
     margin: 0px 0px 0px 0px;
 }
+.shapes {
+    position: absolute;
+    display: flex;
+    font-weight: 400;
+    width: 1440px;
+    display: block;
+    margin: 0 auto;
+}
 
-.section-1 img {
+.shapes img {
+    position: absolute;
     width: 290px;
     height: 290px;
-    padding: 0px 62px 0px 542px;
-    margin: -370px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     gap: 8px;
 }
 
 .additional-info {
     display: flex;
+    position: absolute;
     flex-direction: column;
     gap: 10px;
     
 }
 
 .subheading {
+    position: absolute;
     font-size: 32px;
     color: #1645BC;
     font-weight: 500;

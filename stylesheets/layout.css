@@ -129,11 +129,12 @@ font-family: 'HKGrotesk', sans-serif;
 
 .main-text-2 {
     
-    font-size: 40px;
+    font-size: 64px;
     font-weight: 500;
     color: #252525;
-    margin: 139px 0px 0px 192px;
+    margin: -200px 0px 0px 323px;
     position: absolute;
+    max-width: 800px;
 }
 
 .sub-text-2 {
@@ -141,5 +142,118 @@ font-family: 'HKGrotesk', sans-serif;
     font-weight: 500;
 font-family: 'HKGrotesk', sans-serif;
     color: #252525;
-    margin: 0px 0px 0px 0px;
+    margin: 300px 0px 0px 233px;
+    width: 1093px;
+    line-height: 1.5;
+}
+
+.shapes-2 {
+    position: absolute;
+        display: flex;
+        width: 1440px;
+        display: block;
+        margin: 0 auto;
+}
+
+.shapes-2 img:nth-child(1) {
+    position: absolute;
+    margin: -130px 0px 0px 0px;
+}
+
+.shapes-2 img:nth-child(2) {
+    position: absolute;
+    margin: 20px 0px 0px 100px;
+}
+
+.section-3 {
+    display: flex;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ECE2D9;
+}
+
+.text-block-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main-text-3 {
+
+    font-size: 64px;
+    font-weight: 500;
+    color: #252525;
+    margin: -200px 0px 0px 323px;
+    position: absolute;
+    max-width: 800px;
+}
+
+.shapes-3 {
+    position: absolute;
+    display: flex;
+    width: 1440px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Глиф ае */
+.shapes-3 img:nth-child(1) {
+    position: absolute;
+    margin: 450px 0px 0px 50px;
+}
+
+/* Жд глиф  */
+.shapes-3 img:nth-child(2) {
+    position: absolute;
+    margin: 200px 0px 0px 0px;
+}
+
+/* Розовый куб */
+.shapes-3 img:nth-child(3) {
+    position: absolute;
+    margin: 250px 0px 0px 900px;
+}
+
+/* Машинка */
+.shapes-3 img:nth-child(4) {
+    position: absolute;
+    margin: 550px 0px 0px 850px;
+}
+
+/* Глиф П */
+.shapes-3 img:nth-child(5) {
+    position: absolute;
+    margin: 450px 0px 0px 1000px;
+}
+
+/* Кавычки в треугольнике */
+.shapes-3 img:nth-child(6) {
+    position: absolute;
+    margin: 500px 0px 0px 800px;
+}
+
+/* Коробка глифов */
+.shapes-3 img:nth-child(7) {
+    position: absolute;
+    margin: 450px 0px 0px 50px;
+}
+
+/* Синий круг */
+.shapes-3 img:nth-child(8) {
+    position: absolute;
+    margin: 600px 0px 0px 1050px;
+}
+
+/* Жд буквы (розовая граница) */
+.shapes-3 img:nth-child(9) {
+    position: absolute;
+    margin: 800px 0px 0px 0px;
+}
+
+/* Глиф Д */
+.shapes-3 img:nth-child(10) {
+    position: absolute;
+    margin: 950px 0px 0px 750px;
 }

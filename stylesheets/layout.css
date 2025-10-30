@@ -113,7 +113,7 @@ font-family: 'HKGrotesk', sans-serif;
 }
 
 .section-2 {
-    display: flex;
+    display: block;
     position: relative;
     justify-content: space-between;
     align-items: center;
@@ -157,16 +157,16 @@ font-family: 'HKGrotesk', sans-serif;
 
 .shapes-2 img:nth-child(1) {
     position: absolute;
-    margin: -130px 0px 0px 0px;
+    top: -420px
 }
 
 .shapes-2 img:nth-child(2) {
     position: absolute;
-    margin: 20px 0px 0px 100px;
+    margin: -280px 0px 0px 100px;
 }
 
 .section-3 {
-    display: flex;
+    display: block;
         position: relative;
         justify-content: space-between;
         align-items: center;
@@ -180,14 +180,24 @@ font-family: 'HKGrotesk', sans-serif;
     gap: 10px;
 }
 
-.main-text-3 {
-
+.text-block-3 h3:nth-child(1) {
+    position: absolute;
     font-size: 64px;
     font-weight: 500;
+    font-family: 'HKGrotesk', sans-serif;
     color: #252525;
-    margin: -200px 0px 0px 323px;
+    top: 500px;
+    left: 320px;
+}
+
+.text-block-3 h3:nth-child(2) {
     position: absolute;
-    max-width: 800px;
+    font-size: 64px;
+    font-weight: 500;
+    font-family: 'HKGrotesk', sans-serif;
+    color: #252525;
+    top: 1200px;
+    left: 320px;
 }
 
 .shapes-3 {
@@ -195,31 +205,30 @@ font-family: 'HKGrotesk', sans-serif;
     display: flex;
     width: 1440px;
     display: block;
-    margin: 0 auto;
 }
 
 /* Глиф ае */
 .shapes-3 img:nth-child(1) {
     position: absolute;
-    margin: 450px 0px 0px 50px;
+    margin: 50px 0px 0px 550px;
 }
 
 /* Жд глиф  */
 .shapes-3 img:nth-child(2) {
     position: absolute;
-    margin: 200px 0px 0px 0px;
+    margin: 500px 0px 0px 0px;
 }
 
 /* Розовый куб */
 .shapes-3 img:nth-child(3) {
     position: absolute;
-    margin: 250px 0px 0px 900px;
+    margin: 100px 0px 0px 1050px;
 }
 
 /* Машинка */
 .shapes-3 img:nth-child(4) {
     position: absolute;
-    margin: 550px 0px 0px 850px;
+    margin: 50px 0px 0px 20px;
 }
 
 /* Глиф П */
@@ -237,7 +246,7 @@ font-family: 'HKGrotesk', sans-serif;
 /* Коробка глифов */
 .shapes-3 img:nth-child(7) {
     position: absolute;
-    margin: 450px 0px 0px 50px;
+    margin: 650px 0px 0px 20px;
 }
 
 /* Синий круг */
@@ -249,11 +258,11 @@ font-family: 'HKGrotesk', sans-serif;
 /* Жд буквы (розовая граница) */
 .shapes-3 img:nth-child(9) {
     position: absolute;
-    margin: 800px 0px 0px 0px;
+    margin: 1200px 0px 0px 0px;
 }
 
 /* Глиф Д */
 .shapes-3 img:nth-child(10) {
     position: absolute;
-    margin: 950px 0px 0px 750px;
+    margin: 1083px 0px 0px 777px;
 }

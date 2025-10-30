@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'HKGrotesk';
-    src: url('../fonts/HKGrotesk-Regular(1).otf') format('opentype');
+    src: url('../fonts/HKGrotesk-Regular(1).otf') format('opentype'),
+url('../fonts/hkgrotesk-regular-web(1).woff') format('woff'),
+    url('../fonts/HKGrotesk-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -24,7 +26,9 @@
 
 @font-face {
     font-family: 'HKGrotesk';
-    src: url('../fonts/HKGrotesk-Medium(1).otf') format('opentype');
+    src: url('../fonts/HKGrotesk-Medium(1).otf') format('opentype'),
+    url('../fonts/hkgrotesk-medium-web.woff') format('woff'),
+    url('../fonts/HKGrotesk-Medium.ttf') format('truetype');
     font-style: normal;
     font-weight: 500;
     font-display: swap;

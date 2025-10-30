@@ -47,21 +47,34 @@ font-family: 'HKGrotesk', sans-serif;
 .shapes {
     position: absolute;
     display: flex;
-    font-weight: 400;
     width: 1440px;
     display: block;
     margin: 0 auto;
 }
 
-.shapes img {
+.shapes img:nth-child(1) {
     position: absolute;
     width: 290px;
     height: 290px;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
-    gap: 8px;
+    margin: -350px 0px 0px 560px;
 }
 
+.shapes img:nth-child(2) {
+    position: absolute;
+    margin: -70px 0px 0px 930px;
+}
+
+.shapes img:nth-child(3) {
+    position: absolute;
+    top: 120px;
+    left: 1300px;
+}
+
+.shapes img:nth-child(4) {
+    position: absolute;
+    top: -350px;
+    left: 832px;
+}
 .additional-info {
     display: flex;
     position: absolute;
@@ -75,4 +88,58 @@ font-family: 'HKGrotesk', sans-serif;
     font-size: 32px;
     color: #1645BC;
     font-weight: 500;
+    width: auto
+}
+
+.additional-info p:nth-child(1) {
+    position: absolute;
+    top: -353px;
+    left: 880px;
+}
+
+.additional-info p:nth-child(2) {
+    position: absolute;
+    top: -299px;
+    left: 880px;
+    white-space: nowrap;
+}
+
+.additional-info p:nth-child(3) {
+    font-family: 'HKGrotesk';
+    position: absolute;
+    top: -245px;
+    left: 880px;
+    white-space: nowrap;
+}
+
+.section-2 {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ECE2D9;
+}
+
+.text-block-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main-text-2 {
+    
+    font-size: 40px;
+    font-weight: 500;
+    color: #252525;
+    margin: 139px 0px 0px 192px;
+    position: absolute;
+}
+
+.sub-text-2 {
+    font-size: 32px;
+    font-weight: 500;
+font-family: 'HKGrotesk', sans-serif;
+    color: #252525;
+    margin: 0px 0px 0px 0px;
 }
